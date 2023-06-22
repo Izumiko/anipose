@@ -21,13 +21,23 @@ Check out the `Anipose preprint <https://www.biorxiv.org/content/10.1101/2020.05
 Demos
 ===============
 
-.. figure:: anipose-tutorial/tracking_3cams_full_slower5.gif
-   :align: center
+.. raw:: html
+
+   <div class="align-center">
+   <video autoplay="True" loop="True" muted="True" preload="auto" width="640">
+    <source src="_static/tracking_3cams_full_slower5.mp4" type="video/mp4">
+   </video>
+   </div>
 
    Videos of flies by Evyn Dickinson (slowed 5x), `Tuthill Lab <http://faculty.washington.edu/tuthill>`_
 
-.. figure:: anipose-tutorial/hand-demo.gif
-   :align: center
+.. raw:: html
+
+   <div class="align-center">
+   <video autoplay="True" loop="True" muted="True" preload="auto" width="640">
+    <source src="_static/hand-demo.mp4" type="video/mp4">
+   </video>
+   </div>
 
    Videos of hand by Katie Rupp
 

@@ -105,8 +105,13 @@ Feel free to navigate to this folder and watch a couple of the videos. For examp
 you should find that the labeled video generated for ``2019-08-02-vid01-camA.avi`` 
 looks like this: 
 
-.. figure:: anipose-tutorial/videos-labeled.gif
-   :align: center
+.. raw:: html
+
+   <div class="align-center">
+   <video autoplay="True" loop="True" muted="True" preload="auto" width="400">
+    <source src="_static/videos-labeled.mp4" type="video/mp4">
+   </video>
+   </div>
 
 There is also the option to view the unfiltered predicted 2D labels on each frame by running
 
@@ -205,8 +210,13 @@ since one video is generated per camera group (the number of cameras in the setu
 The resulting video from ``hand-demo-unfilled/2019-08-02/videos-3d/2019-08-02-vid01.avi``
 is shown below. 
 
-.. figure:: anipose-tutorial/videos-3d.gif
-   :align: center 
+.. raw:: html
+
+   <div class="align-center">
+   <video autoplay="True" loop="True" muted="True" preload="auto" width="500">
+    <source src="_static/videos-3d.mp4" type="video/mp4">
+   </video>
+   </div>
 
 Generating Combined Videos
 ==========================
@@ -225,8 +235,13 @@ The combined videos will be contained in ``hand-demo-unfilled/2019-08-02/videos-
 Four combined videos are created by following this tutorial. Here is the combined video from
 ``hand-demo-unfilled/2019-08-02/videos-combined/2019-08-02-vid01.avi``.
 
-.. figure:: anipose-tutorial/combined-videos.gif
-   :align: center
+.. raw:: html
+
+   <div class="align-center">
+   <video autoplay="True" loop="True" muted="True" preload="auto" width="500">
+    <source src="_static/combined-videos.mp4" type="video/mp4">
+   </video>
+   </div>
 
 When using ``anipose label-combined``, the videos concatenated in the top panel correspond
 to those generated from ``anipose label-2d``. Each panel contains the labeled video from
